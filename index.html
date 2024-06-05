@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interfaz Responsiva con Bootstrap</title>
+  <!-- Enlace al archivo CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #343a40 !important;
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #fff !important;
+    }
+    .container {
+      padding: 20px;
+    }
+    .jumbotron {
+      background-color: #063802;
+      color: #fff;
+      padding: 40px;
+      margin-bottom: 20px;
+      border-radius: 0;
+    }
+    .content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mi Sitio Web Responsive</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <div class="jumbotron">
+      <center>
+      <h1 class="display-4">¡Bienvenido!</h1>
+        <br>
+      <p class="lead">Actividad #4 Patricio Orlando Puerta Puerta. Creación de una Interfaz Responsive</p>
+    </center>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="content">
+          <h2 class="text-center">Misión</h2>
+          <p class="text-justify">Formar académicos, científicos y profesionales responsables, humanistas, éticos y solidarios, 
+            comprometidos con los objetivos del desarrollo nacional, que contribuyan a la solución de los problemas 
+            del país como universidad de docencia con investigación, capaces de generar y aplicar nuevos conocimientos, 
+            fomentando la promoción y difusión de los saberes y las culturas, previstos en la Constitución de la República del Ecuador.</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="content">
+          <h2 class="text-center">Visión</h2>
+          <p class="text-justify">Tiene como visión el constituirse en una institución universitaria líder, 
+            referente de la educación superior en el Ecuador, promoviendo la creación, desarrollo, transmisión y difusión 
+            de la ciencia, la técnica y la cultura, con reconocimiento social, proyección regional y mundial.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Imagen debajo de las columnas -->
+    <div class="row">
+      <div class="col-lg-12">
+        <img src="imagen1.jpg" class="img-fluid" alt="Imagen de ejemplo">
+      </div>
+    </div>
+  </div>
+
+  <!-- Enlace al archivo JavaScript de Bootstrap (opcional) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
